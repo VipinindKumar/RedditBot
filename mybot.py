@@ -12,3 +12,16 @@ bot = praw.Reddit(user_agent='myBot',
 subreddit = bot.subreddit('gifs')
 
 comments = subreddit.stream.comments()
+
+# iterate over comments 
+for comment in comments:
+	# get the body of comment and change it to lowerCase
+	text = comment.body().lower()
+	
+	author = comment.author()
+	
+	if ('its' in text) or ("it's" in text):
+		
+		# Generate a message
+		message = ''
+		
