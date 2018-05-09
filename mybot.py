@@ -24,4 +24,6 @@ for comment in comments:
 		
 		# Generate a message
 		message = "it\'s = it is\n\n\n\nIt\'s difficult to find work these days.\n\nIt\'s going to rain soon.\n\n\n\nIt\'s = It is is often used with adjectives, nouns, the comparative and superlative.\n\n\n\nit\'s = it has\n\n\n\nIt\'s been a while since I went there.\n\nIt\'s done at the local shop.\n\n\n\nIts is the possessive adjective form. This form is used to express that \"it\" has a specific quality, or that something belongs to \"it\".\n\nI found its taste to be superb!\n\nIts color is deep red, almost Burgundy.\n\n\n\nSource - https://www.thoughtco.com/its-vs-its-1210744"
-		
+
+		# reply to the comment with the message
+		comment.reply(message)
