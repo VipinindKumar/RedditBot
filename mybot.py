@@ -4,7 +4,7 @@ Email: vipin.ind.kumar@gmail.com
 
 Bot gets comments from the subreddit 'gifs' and
 then reply to the individual comments who mention
-"its" ot "it's" with a explanation to differentiate
+"its" or "it's" with an explanation to differentiate
 "its" and "it's"
 """
 
